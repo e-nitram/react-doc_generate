@@ -1,0 +1,6 @@
+tasks:
+  - init: npm install -g pnpm && pnpm install
+vscode:
+  extensions:
+    - dbaeumer.vscode-eslint
+    - esbenp.prettier-vscode

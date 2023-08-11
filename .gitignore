@@ -1,0 +1,6 @@
+benchmark/suites/
+dist/
+**/node_modules/*
+!**/__fixtures__/**/node_modules/*
+.idea/
+coverage/

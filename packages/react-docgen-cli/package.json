@@ -1,0 +1,44 @@
+{
+  "name": "@react-docgen/cli",
+  "version": "1.0.2",
+  "description": "A CLI to extract information from React components for documentation generation.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reactjs/react-docgen.git",
+    "directory": "packages/react-docgen-cli"
+  },
+  "type": "module",
+  "bin": {
+    "react-docgen": "dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=14.18.0"
+  },
+  "scripts": {
+    "build": "rimraf dist/ && tsc",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "react",
+    "cli",
+    "documentation-generation"
+  ],
+  "author": {
+    "name": "Daniel Tschinder (http://github.com/danez)"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "5.3.0",
+    "commander": "10.0.1",
+    "debug": "4.3.4",
+    "fast-glob": "3.3.1",
+    "react-docgen": "workspace:6.0.2",
+    "slash": "5.1.0"
+  },
+  "devDependencies": {
+    "@types/debug": "4.1.8"
+  }
+}
